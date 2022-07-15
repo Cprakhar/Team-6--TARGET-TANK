@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject tank;
     #endregion
     #region Methods
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
